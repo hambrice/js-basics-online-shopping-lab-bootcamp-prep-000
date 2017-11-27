@@ -69,10 +69,10 @@ function total() {
 total()
 
  function removeFromCart(item) {
-  var i = cart.length - 1;
-  for (i = cart.length - 1; i < cart.length; i--) {
-    true === cart[i].hasOwnProperty(item)
-   if (true === cart[i].hasOwnProperty(item)) {
+  var i = 0;
+  for (i = 0; i < cart.length; i++) {
+   if (cart[i].hasOwnProperty(item)) {
+     
      return cart
      
    } else {
