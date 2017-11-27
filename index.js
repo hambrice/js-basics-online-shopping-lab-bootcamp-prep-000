@@ -65,7 +65,7 @@ function total() {
   return x
 }
 total()
-console.log(x)
+console.log(total())
 
  function removeFromCart(item) {
   var itemFound = false;
