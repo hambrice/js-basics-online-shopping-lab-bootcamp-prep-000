@@ -40,7 +40,6 @@ console.log(cart)
       console.log ('Your shopping cart is empty.')
     }
   }
-  viewCart()
   
  
  /* function viewCart() {
