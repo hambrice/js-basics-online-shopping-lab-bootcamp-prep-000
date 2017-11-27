@@ -69,16 +69,19 @@ function total() {
 total()
 
  function removeFromCart(item) {
+  var itemFound = false;
   var i = 0;
   for (i = 0; i < cart.length; i++) {
    if (cart[i].hasOwnProperty(item)) {
-     
+     cart.splice(i,1);
+     itemFound = true;
      return cart
-     
-   } else {
-     console.log ("That item is not in your cart.")
-     return cart}
+   } 
   }
+  if (!itemFound){
+    console.log ("That item is not in your cart.")
+     return cart
+    }
 }
 
 removeFromCart("oranges")
