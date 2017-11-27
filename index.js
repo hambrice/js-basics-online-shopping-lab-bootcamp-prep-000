@@ -20,8 +20,7 @@ addToCart("bananas")
 addToCart("oranges")
 addToCart("cheese")
 addToCart("pear")
-console.log(cart[0])
-console.log(cart)
+
 
 
    function viewCart() {
@@ -66,6 +65,7 @@ function total() {
   return x
 }
 total()
+console.log(x)
 
  function removeFromCart(item) {
   var itemFound = false;
