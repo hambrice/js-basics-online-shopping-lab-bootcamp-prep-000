@@ -84,8 +84,10 @@ total()
     }
 }
 
-removeFromCart("oranges")
+
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if (cardNumber === undefined) {
+    
+  }
 }
